@@ -1,0 +1,226 @@
+:root {
+    /* fonts */
+    --main-font: "Roboto";
+    --secondary-font: "Raleway";
+    /* text colors */
+    --accent-txt-cl: #2196F3;
+    --main-light-theme: #212121;
+    --second-light-theme: #757575;
+    --main-dark-theme: #ffffff;
+    --btn-change: #188CE8;
+    /* bg-colors */
+    
+    /* others */
+    }
+
+body {
+    font-family: var(--main-font), sans-serif;
+    font-size: 14px;
+    color: var(--main-light-theme);
+    background-color: var(--main-dark-theme);
+    letter-spacing: 0.03em;
+}
+
+/* common styles start */
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-light-theme);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-txt-cl);
+}
+
+.header-link:current {
+    color: var(--accent-txt-cl);
+}
+
+.header-contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-light-theme);
+}
+
+.header-contact:hover,
+.header-contact:focus {
+    color: var(--accent-txt-cl);
+}
+
+.title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-dark-theme);
+}
+
+.title-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em; 
+    color: var(--main-dark-theme);
+    background-color: var(--accent-txt-cl);
+    cursor: pointer;
+}
+
+.title-btn:hover,
+.title-btn:focus {
+    background-color: var(--btn-change);
+}
+
+.orders {
+    background-color: #2F303A;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.peculiarities-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--main-light-theme);
+}
+
+.peculiarities-text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--second-light-theme);
+}
+
+
+.section-title {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--main-light-theme);
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--main-light-theme);
+}
+
+.team-jobtitle {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--second-light-theme);
+}
+
+.footer-adress {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    color: var(--main-dark-theme);
+}
+
+.footer-link {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--accent-txt-cl);
+}
+
+.footer {
+    background-color: #2F303A ;
+}
+
+.filters-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    color: var(--main-light-theme);
+    background-color: #F5F4FA;
+    cursor: pointer;
+}
+
+.filters-btn:active {
+    background-color: var(--main-dark-theme);
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
+    color: var(--main-dark-theme);
+    background-color: var(--accent-txt-cl);
+}
+
+.filters-btn:current {
+    color: var(--main-dark-theme);
+}
+
+.projects-name {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-light-theme);
+}
+
+.projects-status {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--second-light-theme);
+}
+
+.header-logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--main-light-theme);
+}
+
+.logo-color {
+    color: var(--accent-txt-cl);
+}
+
+.footer-logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--main-dark-theme);
+}
