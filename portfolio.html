@@ -41,11 +41,11 @@
                 </ul>
             </nav>
             <ul class="header-group list">
-                <li>
-                    <a class="header-contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <li class="header-contact">
+                    <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li>
-                    <a class="header-contact link" href="tel:+380961111111">+38 096 111 11 11</a>
+                <li class="header-contact">
+                    <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
         </div>
@@ -53,63 +53,81 @@
     <!-- Секция main -->
     <main>
         <!-- Cекция Portfolio -->
-        <section class="filters">
+        <section class="filters section">
             <div class="container">
                 <h1 class="visually-hidden">Portfolio</h1>
                 <!-- Секция filters -->
                 <ul class="buttons-list list">
-                    <li><button class="filters-btn active" type="button">Все</button></li>
-                    <li><button class="filters-btn" type="button">Веб-сайты</button></li>
-                    <li><button class="filters-btn" type="button">Приложения</button></li>
-                    <li><button class="filters-btn" type="button">Дизайн</button></li>
-                    <li><button class="filters-btn" type="button">Маркетинг</button></li>
+                    <li class="buttons-list-item"><button class="filters-btn active" type="button">Все</button></li>
+                    <li class="buttons-list-item"><button class="filters-btn" type="button">Веб-сайты</button></li>
+                    <li class="buttons-list-item"><button class="filters-btn" type="button">Приложения</button></li>
+                    <li class="buttons-list-item"><button class="filters-btn" type="button">Дизайн</button></li>
+                    <li class="buttons-list-item"><button class="filters-btn" type="button">Маркетинг</button></li>
                 </ul>
                 <!-- Секция projects -->
-                <ul class="projects-list list card-set">
-                    <li class="projects-list-item card-set-item">
+                <ul class="projects-list list">
+                    <li class="projects-list-item">
                         <img src="./images/projects/portfolio1.jpg" alt="Веб-сайт" width="370" height="294">
-                        <h2 class="projects-name">Технокряк</h2>
-                        <p class="projects-status">Веб-сайт</p>
+                        <div class="projects-box">
+                            <h2 class="projects-name">Технокряк</h2>
+                            <p class="projects-status">Веб-сайт</p>
+                        </div>
                     </li>
-                    <li class="projects-list-item card-set-item">
+                    <li class="projects-list-item">
                         <img src="./images/projects/portfolio2.jpg" alt="Постер" width="370" height="294">
-                        <h2 class="projects-name">Постер New Orlean vs Golden Star</h2>
-                        <p class="projects-status">Дизайн</p>
+                        <div class="projects-box">
+                            <h2 class="projects-name">Постер New Orlean vs Golden Star</h2>
+                            <p class="projects-status">Дизайн</p>
+                        </div>
                     </li>
-                    <li class="projects-list-item card-set-item">
+                    <li class="projects-list-item">
                         <img src="./images/projects/portfolio3.jpg" alt="Ресторан" width="370" height="294">
-                        <h2 class="projects-name">Ресторан Seafood</h2>
-                        <p class="projects-status">Приложение</p>
+                        <div class="projects-box">
+                            <h2 class="projects-name">Ресторан Seafood</h2>
+                            <p class="projects-status">Приложение</p>
+                        </div>
                     </li>
-                    <li class="projects-list-item card-set-item">
+                    <li class="projects-list-item">
                         <img src="./images/projects/portfolio4.jpg" alt="Наушники" width="370" height="294">
-                        <h2 class="projects-name">Проект Prime</h2>
-                        <p class="projects-status">Маркетинг</p>
+                        <div class="projects-box">
+                            <h2 class="projects-name">Проект Prime</h2>
+                            <p class="projects-status">Маркетинг</p>
+                        </div>
                     </li>
-                    <li class="projects-list-item card-set-item">
+                    <li class="projects-list-item">
                         <img src="./images/projects/portfolio5.jpg" alt="Коробки" width="370" height="294">
-                        <h4 class="projects-name">Проект Boxes</h4>
-                        <p class="projects-status">Приложение</p>
+                        <div class="projects-box">
+                            <h2 class="projects-name">Проект Boxes</h4>
+                                <p class="projects-status">Приложение</p>
+                        </div>
                     </li>
-                    <li class="projects-list-item card-set-item">
+                    <li class="projects-list-item">
                         <img src="./images/projects/portfolio6.jpg" alt="Компютер" width="370" height="294">
-                        <h4 class="projects-name">Inspiration has no Borders</h4>
-                        <p class="projects-status">Веб-сайт</p>
+                        <div class="projects-box">
+                            <h2 class="projects-name">Inspiration has no Borders</h4>
+                                <p class="projects-status">Веб-сайт</p>
+                        </div>
                     </li>
-                    <li class="projects-list-item card-set-item">
+                    <li class="projects-list-item">
                         <img src="./images/projects/portfolio7.jpg" alt="Книга" width="370" height="294">
-                        <h4 class="projects-name">Издание Limited Edition</h4>
-                        <p class="projects-status">Дизайн</p>
+                        <div class="projects-box">
+                            <h2 class="projects-name">Издание Limited Edition</h4>
+                                <p class="projects-status">Дизайн</p>
+                        </div>
                     </li>
-                    <li class="projects-list-item card-set-item">
+                    <li class="projects-list-item">
                         <img src="./images/projects/portfolio8.jpg" alt="Бирка" width="370" height="294">
-                        <h4 class="projects-name">Проект LAB</h4>
-                        <p class="projects-status">Маркетинг</p>
+                        <div class="projects-box">
+                            <h2 class="projects-name">Проект LAB</h4>
+                                <p class="projects-status">Маркетинг</p>
+                        </div>
                     </li>
-                    <li class="projects-list-item card-set-item">
+                    <li class="projects-list-item">
                         <img src="./images/projects/portfolio9.jpg" alt="Ноутбук" width="370" height="294">
-                        <h4 class="projects-name">Growing Business</h4>
-                        <p class="projects-status">Приложение</p>
+                        <div class="projects-box">
+                            <h2 class="projects-name">Growing Business</h4>
+                                <p class="projects-status">Приложение</p>
+                        </div>
                     </li>
                 </ul>
             </div>
