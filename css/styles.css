@@ -82,6 +82,11 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
 .header-list {
   display: flex;
 }
@@ -94,10 +99,6 @@ img {
 .header-group {
   display: flex;
   margin-left: auto;
-}
-
-.header-logo {
-  margin-right: 93px;
 }
 
 .header-list-item:not(:last-child) {
@@ -236,7 +237,7 @@ img {
 /* Секция about */
 
 .about {
-  margin-top: 0;
+  padding-top: 0;
 }
 
 .section-title {
@@ -411,6 +412,7 @@ img {
   font-size: 26px;
   line-height: 1.19;
   color: var(--main-light-theme);
+  margin-right: 93px;
 }
 
 .logo-color {
